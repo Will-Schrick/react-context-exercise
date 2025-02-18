@@ -5,6 +5,14 @@
   text-align: center;
 }
 
+body {
+  background: url('/images/better wallpapersden.com_daenerys-targaryen-final-episode_2012x1380.jpg')
+    no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed; /* Ensures the background stays fixed even when scrolling */
+  min-height: 100vh; /* Ensures it covers at least the full screen */
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
